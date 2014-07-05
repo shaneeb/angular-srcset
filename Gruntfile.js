@@ -23,7 +23,7 @@ module.exports = function(grunt) {
 				banner: '<%= banner %>'
 			},
 			dist: {
-				src: '<%= ngmin.dist.dest %>',
+				src: ['bower_components/srcset/srcset.js', '<%= ngmin.dist.dest %>'],
 				dest: 'build/<%= pkg.name %>.js'
 			}
 		},
@@ -62,7 +62,7 @@ module.exports = function(grunt) {
 		karma: {
 			test: {
 				options: {
-					browsers: ['ChromeCanary'],
+					browsers: ['Chrome'],
 					singleRun: true
 				}
 			},
@@ -102,4 +102,3 @@ module.exports = function(grunt) {
 	// Build task.
 	grunt.registerTask('build', ['ngmin', 'concat', 'uglify']);
 };
-

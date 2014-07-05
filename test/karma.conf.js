@@ -14,6 +14,7 @@ module.exports = function(config) {
 		files: [
 			'http://code.angularjs.org/1.2.15/angular.js',
 			'http://code.angularjs.org/1.2.15/angular-mocks.js',
+			'bower_components/srcset/srcset.js',
 			'lib/*.js',
 			'test/unit/*.js'
 		],
@@ -56,4 +57,3 @@ module.exports = function(config) {
 		singleRun: false
 	});
 };
-

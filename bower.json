@@ -1,0 +1,26 @@
+{
+  "name": "angular-srcset",
+  "version": "0.0.1",
+  "homepage": "https://github.com/shaneeb/angular-srcset",
+  "authors": [
+    "Shaneeb Kamran <me@shaneeb.com>"
+  ],
+  "description": "Polyfill for <img> srcset. Overrides ngSrcset",
+  "main": "build/angular-srcset.js",
+  "keywords": [
+    "angular",
+    "srcset",
+    "image",
+    "responsive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "dependencies": {
+    "srcset": "~0.1.1"
+  }
+}
